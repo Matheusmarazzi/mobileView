@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Pizzaria</title>
+    <script>
+        (function () {const n = window,i = document,o = i.getElementsByTagName("script")[0],t = i.createElement("script");
+        (t.src = "https://js.appetize.io/embed.js"), (t.async = 1), o.parentNode.insertBefore(t, o);
+        const s = new Promise(function (e) {t.onload = function () {e();};});n.appetize = {getClient: function (...e) {
+        return s.then(() => n.appetize.getClient(...e));},};})();
+    </script>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="icon" href="./favicon.ico"  type="image/x-icon">
+
+</head>
+<body>
+    <!-- https://appetize.io/app/2wcrwllvlwnlkte2ssdr5aw5je?device=pixel4&osVersion=11.0&scale=100 -->
+    <div class="container">
+        <iframe
+        id="appetize"
+        src="https://appetize.io/embed/2wcrwllvlwnlkte2ssdr5aw5je"
+        width="378px" 
+        height="650px" 
+        frameborder="0" 
+        scrolling="no"></iframe>
+        <div class="info">
+            <h1>App de controle de comanda  </h1>
+            <article>
+                Este app é uma parte de um projeto de controle de comanda.
+                Onde o aplicativo tem a função de permitir que usuários autenticados realizem
+                a criação de uma comanda e envie para o sistema web informando o número da mesa e os dados do pedido.<br>
+                Para visualizar o sistema web <a target="_blank" href="https://marazzi-pizzaria.netlify.app/">Clique aqui.</a><br><br>
+                Dados para realizar o login:<br>
+                User: user@mail.com<br>
+                senha: 1234
+
+
+            </article>
+        </div>
+    </div>
+
+</body>
+</html>
